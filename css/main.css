@@ -1,6 +1,6 @@
 /*
- * Estilos de tu proyecto
- */
+* Estilos de tu proyecto
+*/
 
 * {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -79,11 +79,7 @@
 }
 .estrella {
 }
-.icono {
-    display: inline-block;
-    position: relative;
-    
-}
+
 .image{
     width: 98%;
     height: 98%;
@@ -91,9 +87,9 @@
     left: 0;
     top: 7%;
     z-index: 1;
-     -moz-transition: opacity 2s;
-            -webkit-transition: opacity 2s;
-            transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s;
 }
 #divG {
     position: fixed;
@@ -199,7 +195,7 @@
 }
 .abajo {
     width: 480px;
-    
+
     border-bottom: rgba(85, 71, 71, 0.54) 1px solid;
 }
 .contenido {
@@ -230,6 +226,12 @@ footer {
     text-align: center;
     position: relative;
     height: 255px;
+}
+
+.icono {
+    display: flex;
+    position: relative;
+
 }
 
 #senior {

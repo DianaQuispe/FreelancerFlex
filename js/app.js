@@ -32,7 +32,7 @@ function iMG(o) {
     var cambiar = document.createElement('span');
     var cambiarSpan = document.createTextNode("PROJECT TITLE");
     cambiar.setAttribute("class","spani");
-  
+
     cambiar.setAttribute("onclick","cambiar("+o.toString().src+")");
     cambiar.appendChild(cambiarSpan);
     crearSpan.appendChild(textoSpan);
