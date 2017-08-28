@@ -1,0 +1,252 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+* {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    color: white;
+}
+
+.header {
+    padding: 2.7%;
+    width: 100%;
+    background-color: #2c3e50;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#chico {
+    font-size: 32%;
+}
+
+.header a {
+    font-weight: bolder;
+    margin: 3%;
+    color: white;
+    text-decoration: none;
+}
+
+.grande {
+    font-size: 2em;
+}
+
+.primera {
+    background-color: #18bc9c;
+    height: 800px;
+    width: 100%;
+}
+
+.bootstrap {
+    position: absolute;
+    height: 750px;
+    width: 85%;
+    margin: 9%;
+}
+
+.segundo {
+    background-color: white;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio {
+    text-align: center;
+    font-size: 4em;
+    color: #391616;
+    position: relative;
+    margin: 3%;
+}
+
+.imagenes {
+    width: 350px;
+}
+
+.imagenes:hover {
+    background-color: skyblue;
+}
+
+.tercero {
+    background-color: #18bc9c;
+    height: 530px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+.estrella {
+}
+.icono {
+    display: inline-block;
+    position: relative;
+    
+}
+.image{
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+    left: 0;
+    top: 7%;
+    z-index: 1;
+     -moz-transition: opacity 2s;
+            -webkit-transition: opacity 2s;
+            transition: opacity 2s;
+}
+#divG {
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+
+}
+.divC {
+    position: absolute;
+    background-color: #3bd2a0;
+    top: 19%;
+    left: 25%;
+    height: 80%;
+    width: 50%;
+}
+.span {
+    z-index: 0;
+    cursor: pointer;
+    position: absolute;
+    font-size: 3em;
+    right: 4%;
+    width: auto;
+    color: black;
+}
+.spani {
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left: 22%;
+    font-size: 3em;
+    color: black;
+    width: auto;
+}
+.span:hover{
+    color: #3a9175;
+}
+
+#boton {
+    background-color: #18bc9c;
+    border: 0;
+    border-radius: 16px;
+    padding: 2%;
+}
+#download {
+    font-size: 1.3em;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+    position: relative;
+    top: 10%;
+    right: 25%;
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border: white 2px solid;
+    padding: 1%;
+    border-radius: 8px;
+}
+
+#download:hover {
+    background-color: white;
+    color: #18bc9c;
+}
+
+#ambs {
+    width: 60%;
+    height: 350px;
+}
+
+#uno,
+#dos {
+    line-height: 2em;
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    display: inline-block;
+    float: left;
+    width: 45%;
+    padding: 2%;
+    text-align: left;
+}
+
+#about {
+    text-align: center;
+    padding: 4%;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.cuarto {
+    background-color: white;
+    height: 800px;
+    width: 100%;
+}
+
+#contacto {
+    font-size: 0.8em;
+    width: 80%;
+    height: 89%;
+    margin: 5% 6% 5% 9%;
+}
+.input {
+    border-color: transparent;
+}
+.abajo {
+    width: 480px;
+    
+    border-bottom: rgba(85, 71, 71, 0.54) 1px solid;
+}
+.contenido {
+    padding-left: 12%;
+    text-align: left;
+    position: relative;
+    bottom: 11%;
+    width: 55%;
+    height: 75%;
+}
+
+.title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #2c3e50;
+    height: 300px;
+    width: 100%;
+}
+
+#location,
+#around,
+#freelancer {
+    text-align: center;
+    position: relative;
+    height: 255px;
+}
+
+#senior {
+    background-color: transparent;
+    top: 12%;
+    position: absolute;
+    background-color: transparent;
+    left: 37%;
+}
+
+.start {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: absolute;
+    text-align: center;
+    bottom: 27%;
+    left: 13%;
+    font-weight: bolder;
+    width: auto;
+    font-size: 463%;
+}

@@ -1,0 +1,155 @@
+/*
+ * Estilos reutilizables
+ */
+.linea {
+    border-top: 5px solid;
+    max-width: 25%;
+}
+.upper {
+    text-transform: uppercase;
+}
+.fa-star:before {
+    content: "\f005";
+}
+style.css:36
+*:before, *:after {
+    /* box-sizing: border-box; */
+}
+style.css:7
+*:before, *:after {
+    /* box-sizing: border-box; */
+}
+.linea:nth-child(2) {
+    color: #2c3e50;
+}
+.star-5-points {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 0;
+  height: 0;
+  position: relative;
+  margin: 50px 0;
+  border: 100px solid rgba(0,0,0,0);
+  border-top: 0 solid;
+  border-bottom: 70px solid #1abc9c;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: red;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  -webkit-transform: rotateZ(35deg)   ;
+  transform: rotateZ(35deg)   ;
+}
+
+.star-5-points::before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  top: -45px;
+  left: -65px;
+  border: 30px solid rgba(0,0,0,0);
+  border-top: 0 solid;
+  border-bottom: 80px solid #1abc9c;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: none;
+  -webkit-transform: rotateZ(-35deg)   ;
+  transform: rotateZ(-35deg)   ;
+}
+
+.star-5-points::after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: -105px;
+  border: 100px solid rgba(0,0,0,0);
+  border-top: 0 solid;
+  border-bottom: 70px solid #1abc9c;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: red;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: none;
+  -webkit-transform: rotateZ(-70deg)   ;
+  transform: rotateZ(-70deg)   ;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row1:after {
+    clear: both;
+}
+
+[class*="col-"] {
+    min-height: 7px;
+    float: left;
+}
+
+
+.col-1 {
+    width: 8.333333%;
+}
+
+.col-2 {
+    width: 16.6666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    padding-top: 2%;
+    display: inline-block;
+    width: 33.33333%;
+}
+.col-5 {
+
+    width: 41.666667%
+}
+.col-6 {
+    width: 50%
+}
+.col-7 {
+    width: 58.333333%
+}
+.col-8 {
+    width: 66.6666667%
+}
+.col-9 {
+    width: 75%
+}
+.col-10 {
+    width: 83.33333%
+}
+.col-11 {
+    width: 91.66667%
+}
+.col-12 {
+    width: 100%
+}
